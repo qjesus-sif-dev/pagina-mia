@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jesus angel B.- estudainte del ITPM</title>
+    <!-- Modern Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boxicons for modern icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <body>
+    <!-- Decoración de fondo dinámica -->
+    <div class="background-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navegación Sticky con Glassmorphism -->
+    <header class="glass-header">
+      <div class="contenedor header-content">
+        <div class="logo">
+          <svg viewBox="0 0 200 80" class="AB-logo" xmlns="http://www.w3.org/2000/svg">
+            <!-- Fondo del logo -->
+            <rect width="200" height="80" fill="none"/>
+            
+            <!-- Letra M -->
+            <path d="M 20 60 L 20 20 L 35 40 L 50 20 L 50 60" stroke="#ff0000" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <!-- Letra K -->
+            <path d="M 60 60 L 60 20 M 82 20 L 60 40 L 82 60" stroke="#ffff00" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <!-- Efecto de cuchillas -->
+            <line x1="15" y1="15" x2="85" y2="15" stroke="#ff0000" stroke-width="2" opacity="0.7"/>
+            <line x1="15" y1="65" x2="85" y2="65" stroke="#ffff00" stroke-width="2" opacity="0.7"/>
+            
+            <!-- Texto "ANGEL" -->
+            <text x="95" y="55" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ff0000" letter-spacing="1">ANGEL</text>
+          </svg>
+        </div>
+        <nav>
+          <ul class="navegacion">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto" class="btn-primary btn-small">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+      <div class="contenedor hero-content">
+        <h1 class="subtitle">Hola, soy</h1>
+        <h1 class="title">jesus A <span>Q.Blanco</span></h1>
+        <p class="description">
+          soy un estudiante de infromatica en el instituto tecnico tecnologico puerto de melillones del turno noche y de primer año.
+        </p>
+        <div class="hero-buttons">
+          <a href="nosotros.html" class="btn-primary glow-effect"
+            >Ver mis trabajos</a
+          >
+          <a href="#sobre-mi" class="btn-secondary"
+            >Conocer más <i class="bx bx-down-arrow-alt"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mi -->
+    <section id="sobre-mi" class="section">
+      <div class="contenedor">
+        <div class="sobre-mi-grid glass-panel">
+          <div class="sobre-mi-img">
+            <img
+              src="WhatsApp Image 2026-06-22 at 19.18.28.jpeg"
+              alt="jesus angel quispe blanco"
+              title="jesus angel  quispe blanco"
+            />
+            <div class="img-overlay"></div>
+          </div>
+          <div class="sobre-mi-info">
+            <h3>Sobre <span>Mí</span></h3>
+            <p>
+              Mi nombre es jesus angel quispe blanco y soy estudiante de informatica del instituto
+              tecnico tecnologico puerto de mejillones
+             
+            </p>
+            <p>
+            soy un estudiante nuevo en sistemas informaticos y vine a aprender
+            </p>
+            <p>
+              tambien soy un estudiantede de la universcidad publica del alto
+               En ahi estudio gestion turistica y hotelera soy estudiante de primer año.
+              >.
+            </p>
+            <p>
+           SI
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nueva Sección de Servicios (Cards) -->
+    <section id="servicios" class="section">
+      <div class="contenedor text-center">
+        <h3 class="section-title">Mis <span>Servicios</span></h3>
+        <p class="section-subtitle">
+      
+        </p>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <div class="card glass-card">
+            <div class="card-icon">
+              <i class="bx bx-code-alt"></i>
+            </div>
+            <h4>Desarrollo Web</h4>
+            <p>
+              Creación de sitios web rápidos, seguros y escalables usando
+              tecnologías de vanguardia para asegurar el mejor rendimiento.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="card glass-card">
+            <div class="card-icon">
+              <i class="bx bxs-palette"></i>
+            </div>
+            <h4>Diseño UI/UX</h4>
+            <p>
+              Interfaces atractivas, modernas e intuitivas centradas en mejorar
+              la experiencia del usuario y aumentar la conversión.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="card glass-card">
+            <div class="card-icon">
+              <i class="bx bx-store-alt"></i>
+            </div>
+            <h4>E-Commerce</h4>
+            <p>
+              Tiendas online totalmente equipadas, fáciles de administrar y
+              optimizadas para vender tus productos 24/7.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contactos -->
+    <section id="contacto" class="section">
+      <div class="contenedor text-center">
+        <h3 class="section-title">Mis <span>Redes Sociales</span></h3>
+        <p class="section-subtitle">Sígueme en mis redes sociales</p>
+
+        <div class="social-links">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/j.angel.q.blanco" target="_blank" rel="noopener noreferrer" class="social-link facebook" title="Facebook">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/angelblanco3937?igsh=MTE0MzBlaGI3Z2g2Mg==" target="_blank" rel="noopener noreferrer" class="social-link instagram" title="Instagram">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <!-- TikTok -->
+          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link tiktok" title="TikTok">
+            <i class="bx bxl-tiktok"></i>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/qr/6EFSRR6ANZBSF1" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" title="WhatsApp">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+          <!-- X (Twitter) -->
+          <a href="https://x.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-link x-twitter" title="X">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="contenedor">
+        <p>&copy; 2026 jesus angel B. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
